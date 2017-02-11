@@ -1,0 +1,11 @@
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+
+.format {
+    display: inline-block;
+}
+
+.format:nth-child(2) {
+    width: 200px;
+}
